@@ -14,8 +14,8 @@ Robust architecture of an Angular 6 app
 npm install
 
 # serve at localhost:4200
-npm serve
+ng serve
 
 # serve at localhost:4200 and open it in browser
-npm serve --open
+ng serve --open
 ```

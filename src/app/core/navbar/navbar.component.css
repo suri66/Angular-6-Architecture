@@ -1,0 +1,24 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+
+.navbar-default {
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+}
+.navbar-custom-color
+{
+  background-color: #3f51b5 !important;
+  border-color: #3f51b5 !important;
+}
+
+.navbar-custom-font-color
+{
+  color: white !important;
+  font-size: 18px !important;
+}

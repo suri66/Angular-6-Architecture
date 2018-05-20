@@ -1,0 +1,16 @@
+.footer-main-box11 {
+    border-top: 1px solid #d2d2d2;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer {
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    margin-top: 1px;
+    display: inherit;
+}

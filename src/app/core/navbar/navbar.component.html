@@ -1,0 +1,55 @@
+<div class="navbar navbar-expand-lg navbar-light bg-light navbar-custom-color">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="col-md-9">
+    <a class="navbar-brand navbar-custom-font-color" href="#" style="font-size: 23px !important;">PERFEQTA</a>
+  </div>
+  <div class="col-md-3">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="margin-left: 75px;">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link navbar-custom-font-color" href="#">App <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-custom-font-color" routerLink="/master">Master</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-custom-font-color" routerLink="/task">Task</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-custom-font-color" routerLink="/task">Help</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- <mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="true"
+    [attr.role]="isHandset ? 'dialog' : 'navigation'"
+    [mode]="(isHandset | async)!.matches ? 'over' : 'side'"
+    [opened]="!(isHandset | async)!.matches">
+    <mat-toolbar color="primary">Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="(isHandset | async)!.matches">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>PERFEQTA</span>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container> -->

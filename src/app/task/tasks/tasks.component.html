@@ -1,0 +1,8 @@
+<div class="grid grid-pad">
+  <a *ngFor="let task of tasks" class="col-md-6"
+      routerLink="{{task.routerLink}}">
+    <div class="module hero">
+      <h4>{{task.name}}</h4>
+    </div>
+  </a>
+</div>

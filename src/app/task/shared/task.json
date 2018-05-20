@@ -1,0 +1,20 @@
+[
+  {
+    "position": 1,
+    "name": "Hydrogen",
+    "weight": 33,
+    "symbol": "H"
+  },
+  {
+    "position": 2,
+    "name": "Helium",
+    "weight": 43,
+    "symbol": "He"
+  },
+  {
+    "position": 1,
+    "name": "Lithium",
+    "weight": 88,
+    "symbol": "Li"
+  }
+]

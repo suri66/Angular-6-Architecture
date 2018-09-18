@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-
-import { Schedule } from './task';
+import { Schedule } from '@app/shared/models/tasks';
 
 @Injectable({
   providedIn: 'root'

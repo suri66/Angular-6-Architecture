@@ -6,6 +6,7 @@ Robust architecture of an Angular 6 app
 ## Pre-requisites
 
 1. Node version should be greater than 8.9
+2. Install Angular CLI from https://angular.io/guide/quickstart
 
 ## Build Setup
 
